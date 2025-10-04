@@ -179,7 +179,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Shomail Niazi**
 - Email: shomailniazi008@gmail.com
-- GitHub: [@shomail](https://github.com/shomail)
+- GitHub: https://github.com/khan-8
 
 ## 🙏 Acknowledgments
 
