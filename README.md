@@ -25,8 +25,25 @@ A modern, feature-rich todo list application built with Flutter and Firebase, sh
 
 ## 📱 Screenshots
 
-<!-- Add screenshots here when available -->
-*Screenshots coming soon...*
+### Onboarding & Authentication
+<div align="center">
+  <img src="screenshots/onboarding.png" width="250" alt="Onboarding Screen"/>
+  <img src="screenshots/login.png" width="250" alt="Login Screen"/>
+  <img src="screenshots/signup.png" width="250" alt="Sign Up Screen"/>
+</div>
+
+### Task Management
+<div align="center">
+  <img src="screenshots/home.png" width="250" alt="Home Screen"/>
+  <img src="screenshots/tasks_info.png" width="250" alt="Task info"/>
+  <img src="screenshots/all_tasks.png" width="250" alt="All Tasks Screen"/>
+  <img src="screenshots/category_tasks.png" width="250" alt="Category Tasks"/>
+</div>
+
+### Task Operations
+<div align="center">
+  <img src="screenshots/add_task.png" width="250" alt="Add New Task"/>
+</div>
 
 ## 🚀 Getting Started
 
