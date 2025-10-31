@@ -12,7 +12,6 @@ A modern, feature-rich todo list application built with Flutter and Firebase, sh
 - **🎯 Task Status Tracking**: Pending, Done, and Overdue status management
 - **👤 User Profiles**: Account management and logout functionality
 - **🎨 Modern UI**: Clean, intuitive interface with consistent design
-- **📱 Responsive Design**: Works seamlessly on different screen sizes
 
 ## 🏗️ Architecture & Tech Stack
 
@@ -35,8 +34,8 @@ A modern, feature-rich todo list application built with Flutter and Firebase, sh
 ### Task Management
 <div align="center">
   <img src="screenshots/home.png" width="250" alt="Home Screen"/>
-  <img src="screenshots/tasks_info.png" width="250" alt="Task info"/>
   <img src="screenshots/all_tasks.png" width="250" alt="All Tasks Screen"/>
+  <img src="screenshots/tasks_info.png" width="250" alt="Task info"/>
   <img src="screenshots/category_tasks.png" width="250" alt="Category Tasks"/>
 </div>
 
@@ -147,6 +146,7 @@ flutter test integration_test/
 
 ## 🚧 Future Enhancements
 
+- [ ] responsive design
 - [ ] Push notifications for task reminders
 - [ ] Dark mode support
 - [ ] Task sharing and collaboration
