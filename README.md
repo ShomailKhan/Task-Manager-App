@@ -108,30 +108,6 @@ lib/
     └── components.dart                # Shared components
 ```
 
-## 🎯 Key Features Implemented
-
-### Authentication Flow
-- Secure user registration and login
-- Auto-login for returning users
-- Protected routes and user-specific data
-
-### Task Management
-- CRUD operations with real-time updates
-- Category-based organization
-- Status tracking (Pending, Done, Overdue)
-- Date and time scheduling
-
-### Real-time Synchronization
-- Firestore streams for live updates
-- Optimistic UI updates
-- Offline support (Firebase built-in)
-
-### User Experience
-- Intuitive navigation with bottom tabs
-- Swipe-to-delete functionality
-- Confirmation dialogs for destructive actions
-- Loading states and error handling
-
 ## 🧪 Testing
 
 ```bash
@@ -170,10 +146,6 @@ flutter test integration_test/
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Developer
 
