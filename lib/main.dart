@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             titleSmall: TextStyle(fontFamily: 'outfit', fontSize: 20),
           ),
         ),
-        home: StreamBuilder<User?>(
+        home: StreamBuilder(
           stream: FirebaseAuth.instance.authStateChanges(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
@@ -50,7 +50,6 @@ class MyApp extends StatelessWidget {
             }
 
             if (snapshot.hasData && snapshot.data != null) {
-              print('Navigating to Homepage');
               return Homepage();
             } else {
               return OnboardingScreen();

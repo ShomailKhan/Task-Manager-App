@@ -22,17 +22,19 @@ class _HomepageState extends State<Homepage> {
     
     return Scaffold(
       body: IndexedStack(index: currentPage, children: pages),
-      floatingActionButton: FloatingActionButton(
-        tooltip: 'add a new task',
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => AddNewTask()),
-          );
-        },
-        backgroundColor: primaryColor,
-        child: Icon(Icons.add, color: Colors.white, size: 40),
-      ),
+      floatingActionButton: currentPage == 0
+          ? FloatingActionButton(
+              tooltip: 'add a new task',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AddNewTask()),
+                );
+              },
+              backgroundColor: primaryColor,
+              child: Icon(Icons.add, color: Colors.white, size: 40),
+            )
+          : null,
       bottomNavigationBar: Container(
         margin: EdgeInsets.all(12),
         decoration: BoxDecoration(
